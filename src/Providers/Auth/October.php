@@ -4,7 +4,7 @@ namespace Chrisbjr\ApiGuard\Providers\Auth;
 
 use October\Rain\Auth\Manager as OctoberAuth;
 
-class October implements Auth
+class October implements \Chrisbjr\ApiGuard\Contracts\Providers\Auth
 {
 
     /**
